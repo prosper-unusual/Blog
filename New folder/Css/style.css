@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f6f6f6f;
+    
+}
+header {
+    background-color: #008489;
+    height: 66px;
+}
+
+header * {
+    color: white;
+}
+
+header .logo {
+    float: left;
+    height: inherit;
+    border: 1px solid red ;
+}
+
+header ul {
+    float: right;
+}
+
+header .menu-toggle{
+    display: none;
+}
